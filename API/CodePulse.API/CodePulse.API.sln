@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodePulse.API", "CodePulse.API\CodePulse.API.csproj", "{84BD0E31-837A-4066-86A6-6EF7A8001C85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84BD0E31-837A-4066-86A6-6EF7A8001C85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84BD0E31-837A-4066-86A6-6EF7A8001C85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84BD0E31-837A-4066-86A6-6EF7A8001C85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84BD0E31-837A-4066-86A6-6EF7A8001C85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0565F2B-96B8-4F2F-97D9-CA843D4CAD85}
+	EndGlobalSection
+EndGlobal
