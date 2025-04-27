@@ -157,3 +157,13 @@ D:\Codes\Udemy\CodePulse\API\CodePulse.API\CodePulse.API\bin\Debug\net9.0\Swashb
 D:\Codes\Udemy\CodePulse\API\CodePulse.API\CodePulse.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Codes\Udemy\CodePulse\API\CodePulse.API\CodePulse.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\Codes\Udemy\CodePulse\API\CodePulse.API\CodePulse.API\bin\Debug\net9.0\Scalar.AspNetCore.dll
+D:\Codes\Udemy\CodePulse\API\CodePulse.API\CodePulse.API\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Codes\Udemy\CodePulse\API\CodePulse.API\CodePulse.API\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Codes\Udemy\CodePulse\API\CodePulse.API\CodePulse.API\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Codes\Udemy\CodePulse\API\CodePulse.API\CodePulse.API\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Codes\Udemy\CodePulse\API\CodePulse.API\CodePulse.API\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Codes\Udemy\CodePulse\API\CodePulse.API\CodePulse.API\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+D:\Codes\Udemy\CodePulse\API\CodePulse.API\CodePulse.API\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Codes\Udemy\CodePulse\API\CodePulse.API\CodePulse.API\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+D:\Codes\Udemy\CodePulse\API\CodePulse.API\CodePulse.API\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+D:\Codes\Udemy\CodePulse\API\CodePulse.API\CodePulse.API\obj\Debug\net9.0\CodePulse.API.sourcelink.json
