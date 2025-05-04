@@ -12,7 +12,7 @@ namespace CodePulse.API.Controllers
     [ApiController]
     public class CategoriesController : ControllerBase
     {
-        private readonly ICategorRepository _category; 
+        private readonly ICategorRepository _category;
         public CategoriesController(ICategorRepository category)
         {
             _category = category;
@@ -32,7 +32,7 @@ namespace CodePulse.API.Controllers
             //Map Domain Model to DTO
             var responseCategory = new ResponseCategoryDTO
             {
-                Id =   category.Id,
+                Id = category.Id,
                 Name = category.Name,
                 UrlHandle = category.UrlHandle
             };
@@ -42,7 +42,7 @@ namespace CodePulse.API.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAllCategories()
         {
-           var categories = await _category.GetAllAsync();
+            var categories = await _category.GetAllAsync();
             //Map Domain Model to DTO
             var responseCategories = categories.Select(c => new ResponseCategoryDTO
             {
@@ -72,7 +72,7 @@ namespace CodePulse.API.Controllers
         [HttpPut]
         [Route("{id}")]
 
-        public async Task<IActionResult> EditCategory(Guid id,UpdateCategoryResponseDTO editCategory)
+        public async Task<IActionResult> EditCategory(Guid id, UpdateCategoryResponseDTO editCategory)
         {
             //Map DTO to Domain Model
             var category = new Category
@@ -96,7 +96,25 @@ namespace CodePulse.API.Controllers
                     UrlHandle = result.UrlHandle
                 };
             }
-                return Ok(result);
+            return Ok(result);
+        }
+
+        [HttpDelete]
+        [Route("{id}")]
+        public async Task<IActionResult> DeleteCategory(Guid id)
+        {
+            var category = await _category.DeleteAsync(id);
+            if (category == null)
+            {
+                return NotFound();
+            }
+            var responseCategory = new ResponseCategoryDTO
+            {
+                Id = category.Id,
+                Name = category.Name,
+                UrlHandle = category.UrlHandle
+            };
+            return Ok(responseCategory);
         }
     }
 }
