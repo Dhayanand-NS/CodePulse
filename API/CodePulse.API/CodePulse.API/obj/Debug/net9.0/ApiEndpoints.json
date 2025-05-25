@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "CodePulse.API.Controllers.BlogPostController",
+    "Method": "CreateBlogPost",
+    "RelativePath": "api/BlogPost",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDTO",
+        "Type": "CodePulse.API.Models.DTO.CreateBlogPostRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CodePulse.API.Controllers.CategoriesController",
     "Method": "CreateCategory",
     "RelativePath": "api/Categories",
