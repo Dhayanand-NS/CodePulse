@@ -9,7 +9,7 @@ namespace CodePulse.API.Controllers
     [ApiController]
     public class BlogPostController : Controller
     {
-        private readonly IBlogPostRepository _blogPost;   
+        private readonly IBlogPostRepository _blogPost;
         public BlogPostController(IBlogPostRepository blogPost)
         {
             _blogPost = blogPost;
@@ -17,18 +17,18 @@ namespace CodePulse.API.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateBlogPost(CreateBlogPostRequestDTO requestDTO)
         {
-           //Map DTO to Domain Model
-           var blogPost = new BlogPost
-           {
-               Title = requestDTO.Title,
-               ShortDescription = requestDTO.ShortDescription,
-               Content = requestDTO.Content,
-               FeaturedImageUrl = requestDTO.FeaturedImageUrl,
-               UrlHandle = requestDTO.UrlHandle,
-               PublisedDate = requestDTO.PublisedDate,
-               Author = requestDTO.Author,
-               IsVisible = requestDTO.IsVisible
-           };
+            //Map DTO to Domain Model
+            var blogPost = new BlogPost
+            {
+                Title = requestDTO.Title,
+                ShortDescription = requestDTO.ShortDescription,
+                Content = requestDTO.Content,
+                FeaturedImageUrl = requestDTO.FeaturedImageUrl,
+                UrlHandle = requestDTO.UrlHandle,
+                PublisedDate = requestDTO.PublisedDate,
+                Author = requestDTO.Author,
+                IsVisible = requestDTO.IsVisible
+            };
             var blog = await _blogPost.CreateAsync(blogPost);
 
             //Map Domain Model to DTO
@@ -45,7 +45,28 @@ namespace CodePulse.API.Controllers
                 IsVisible = blog.IsVisible
             };
 
-            return Ok(ResponseBlogPost); 
+            return Ok(ResponseBlogPost);
         }
+
+        [HttpGet]
+        public async Task<IActionResult> GetAllBlogPosts()
+        {
+            var blogPosts = await _blogPost.GetAllAsync();
+            //Map Domain Model to DTO
+            var responseBlogPosts = blogPosts.Select(b => new ResponseBlogPostDTO
+            {
+                Id = b.Id,
+                Title = b.Title,
+                ShortDescription = b.ShortDescription,
+                Content = b.Content,
+                FeaturedImageUrl = b.FeaturedImageUrl,
+                UrlHandle = b.UrlHandle,
+                PublisedDate = b.PublisedDate,
+                Author = b.Author,
+                IsVisible = b.IsVisible
+            }).ToList();
+            return Ok(responseBlogPosts);
+        }
+
     }
 }
