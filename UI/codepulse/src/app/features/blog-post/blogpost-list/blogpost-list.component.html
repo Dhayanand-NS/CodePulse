@@ -8,9 +8,10 @@
         <table class="table table-bordered mt-3">
             <thead>
                 <tr>
-                    <th>title</th>
-                    <th>shortDescription</th>
-                    <th>isVisible</th>
+                    <th>Title</th>
+                    <th>ShortDescription</th>
+                    <th>IsVisible</th>
+                    <th>Categories</th>
                     <th></th>
                 </tr>
             </thead>
@@ -19,6 +20,11 @@
                     <td>{{item.title}}</td>
                     <td>{{item.shortDescription}}</td>
                     <td>{{item.isVisible}}</td>
+                    <td>
+                        <span *ngFor="let categories of item.categories">
+                            {{categories.name}}
+                        </span>
+                    </td>
                     <td>
                         <a class="btn btn-light">Edit</a>
                     </td>

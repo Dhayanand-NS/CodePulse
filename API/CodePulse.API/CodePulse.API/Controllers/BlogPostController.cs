@@ -10,12 +10,14 @@ namespace CodePulse.API.Controllers
     public class BlogPostController : Controller
     {
         private readonly IBlogPostRepository _blogPost;
-        public BlogPostController(IBlogPostRepository blogPost)
+        private readonly ICategorRepository _category;
+        public BlogPostController(IBlogPostRepository blogPost, ICategorRepository category)
         {
             _blogPost = blogPost;
+            _category = category;
         }
         [HttpPost]
-        public async Task<IActionResult> CreateBlogPost(CreateBlogPostRequestDTO requestDTO)
+        public async Task<IActionResult> CreateBlogPost(CreateBlogPostRequestDTO requestDTO)  
         {
             //Map DTO to Domain Model
             var blogPost = new BlogPost
@@ -27,8 +29,18 @@ namespace CodePulse.API.Controllers
                 UrlHandle = requestDTO.UrlHandle,
                 PublisedDate = requestDTO.PublisedDate,
                 Author = requestDTO.Author,
-                IsVisible = requestDTO.IsVisible
+                IsVisible = requestDTO.IsVisible, 
+                Categories = new List<Category>()
             };
+            foreach(var categoryGuid in requestDTO.Categories)
+            {
+                var existingCategory = await _category.GetById(categoryGuid);
+                if(existingCategory is not null)
+                {
+                    blogPost.Categories.Add(existingCategory);
+                }
+
+            }
             var blog = await _blogPost.CreateAsync(blogPost);
 
             //Map Domain Model to DTO
@@ -42,7 +54,13 @@ namespace CodePulse.API.Controllers
                 UrlHandle = blog.UrlHandle,
                 PublisedDate = blog.PublisedDate,
                 Author = blog.Author,
-                IsVisible = blog.IsVisible
+                IsVisible = blog.IsVisible,
+                Categories = blog.Categories.Select(c => new ResponseCategoryDTO
+                {
+                    Id = c.Id,
+                    Name = c.Name,
+                    UrlHandle = c.UrlHandle
+                }).ToList()
             };
 
             return Ok(ResponseBlogPost);
@@ -63,7 +81,13 @@ namespace CodePulse.API.Controllers
                 UrlHandle = b.UrlHandle,
                 PublisedDate = b.PublisedDate,
                 Author = b.Author,
-                IsVisible = b.IsVisible
+                IsVisible = b.IsVisible,
+                Categories = b.Categories.Select(c => new ResponseCategoryDTO
+                {
+                    Id = c.Id,
+                    Name = c.Name,
+                    UrlHandle = c.UrlHandle
+                }).ToList()
             }).ToList();
             return Ok(responseBlogPosts);
         }
