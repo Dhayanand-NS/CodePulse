@@ -1,7 +1,7 @@
 export interface category
 {
-    id :String;
-    name : String;
-    urlHandle : String;
+    id :string;
+    name : string;
+    urlHandle : string;
 
 }
