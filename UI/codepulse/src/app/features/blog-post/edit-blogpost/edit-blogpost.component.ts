@@ -22,6 +22,7 @@ export class EditBlogpostComponent implements OnInit ,OnDestroy {
   paramsSubscription? : Subscription
   updateBlogPostSubscription? : Subscription
   blogPostSubscription? : Subscription
+  deleteBlogPostSubscription? : Subscription
   model? : BlogPost
   categories$? : Observable<category[]>
   selectedCategories? : string[]
@@ -49,6 +50,7 @@ export class EditBlogpostComponent implements OnInit ,OnDestroy {
       this.paramsSubscription?.unsubscribe();
       this.updateBlogPostSubscription?.unsubscribe();
       this.blogPostSubscription?.unsubscribe();
+      this.deleteBlogPostSubscription?.unsubscribe();
   }
   OnFormSubmit() : void{
     if(this.model && this.id){
@@ -70,5 +72,12 @@ export class EditBlogpostComponent implements OnInit ,OnDestroy {
         }
       })
     }
+  }
+  OnDelete() : void{
+   this.deleteBlogPostSubscription =  this.blogPostService.deleteBlogPost(this.id).subscribe({
+      next:(response)=>{
+         this.router.navigateByUrl('admin/blogpost');
+      }
+    })
   }
 }

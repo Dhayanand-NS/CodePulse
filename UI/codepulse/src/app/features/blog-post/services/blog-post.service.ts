@@ -27,6 +27,9 @@ export class BlogPostService {
 
     updateBlogPost(id : string , model : UpdateBlogPost){
       return this.http.put<BlogPost>(`${environment.apiBaserl}api/BlogPost/${id}`,model)
-      
+    }
+
+    deleteBlogPost(id : string | null){
+      return this.http.delete<BlogPost>(`${environment.apiBaserl}api/BlogPost/${id}`)
     }
 }
