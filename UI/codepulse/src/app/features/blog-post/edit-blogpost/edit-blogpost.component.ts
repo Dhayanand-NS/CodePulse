@@ -9,24 +9,28 @@ import { MarkdownModule } from 'ngx-markdown';
 import { CategoryService } from '../../Category/services/category.service';
 import { category } from '../../Category/models/category.model';
 import { UpdateBlogPost } from '../models/update-blogpost.model';
+import { ImageSelectorComponent } from "../../../shared/components/image-selector/image-selector.component";
+import { ImageService } from '../../../shared/components/image-selector/image.service';
 
 @Component({
   selector: 'app-edit-blogpost',
-  imports: [CommonModule, FormsModule, MarkdownModule],
+  imports: [CommonModule, FormsModule, MarkdownModule, ImageSelectorComponent],
   templateUrl: './edit-blogpost.component.html',
   styleUrl: './edit-blogpost.component.css'
 })
 export class EditBlogpostComponent implements OnInit ,OnDestroy {
 
   id : string | null = null
+  isImageModelVisible : boolean = false;
   paramsSubscription? : Subscription
   updateBlogPostSubscription? : Subscription
   blogPostSubscription? : Subscription
   deleteBlogPostSubscription? : Subscription
+  selectedImageSubscription? : Subscription
   model? : BlogPost
   categories$? : Observable<category[]>
   selectedCategories? : string[]
-  constructor(private route : ActivatedRoute, private blogPostService : BlogPostService, private catgoryServices : CategoryService, private router :Router){
+  constructor(private route : ActivatedRoute, private blogPostService : BlogPostService, private catgoryServices : CategoryService, private router :Router, private ImageService : ImageService){
 
   }
 
@@ -43,15 +47,26 @@ export class EditBlogpostComponent implements OnInit ,OnDestroy {
             }
           })
         }
+      this.selectedImageSubscription =  this.ImageService.onSelectedImage().subscribe({
+          next :(res)=>{
+            if(this.model){
+               this.model.featuredImageUrl = res.url;
+               this.CloseImagerSelectorModelPopUp();
+            }
+          }
+        })
       }
     })
   }
+  
   ngOnDestroy(): void {
       this.paramsSubscription?.unsubscribe();
       this.updateBlogPostSubscription?.unsubscribe();
       this.blogPostSubscription?.unsubscribe();
       this.deleteBlogPostSubscription?.unsubscribe();
+      this.selectedImageSubscription?.unsubscribe();
   }
+
   OnFormSubmit() : void{
     if(this.model && this.id){
       var updateBlogPost : UpdateBlogPost ={
@@ -73,11 +88,19 @@ export class EditBlogpostComponent implements OnInit ,OnDestroy {
       })
     }
   }
+
   OnDelete() : void{
    this.deleteBlogPostSubscription =  this.blogPostService.deleteBlogPost(this.id).subscribe({
       next:(response)=>{
          this.router.navigateByUrl('admin/blogpost');
       }
     })
+  }
+  ShowImagerSelectorModelPopUp() : void{
+    this.isImageModelVisible = true;
+  }
+  CloseImagerSelectorModelPopUp() : void{
+        this.isImageModelVisible = false;
+
   }
 }
