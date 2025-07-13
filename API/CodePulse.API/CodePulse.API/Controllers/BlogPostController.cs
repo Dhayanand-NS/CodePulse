@@ -206,5 +206,36 @@ namespace CodePulse.API.Controllers
 
         }
 
+        [HttpGet]
+        [Route("url/{urlHandle}")]
+        public async Task<IActionResult>GetBlogPostsByUrlHandle(string urlHandle)
+        {
+            var blogPost = await _blogPost.GetBlogPostByUrlHandle(urlHandle);
+            if (blogPost == null)
+            {
+                return NotFound();
+            }
+            //Map Domain Model to DTO
+            var responseBlogPost = new ResponseBlogPostDTO
+            {
+                Id = blogPost.Id,
+                Title = blogPost.Title,
+                ShortDescription = blogPost.ShortDescription,
+                Content = blogPost.Content,
+                FeaturedImageUrl = blogPost.FeaturedImageUrl,
+                UrlHandle = blogPost.UrlHandle,
+                PublisedDate = blogPost.PublisedDate,
+                Author = blogPost.Author,
+                IsVisible = blogPost.IsVisible,
+                Categories = blogPost.Categories.Select(c => new ResponseCategoryDTO
+                {
+                    Id = c.Id,
+                    Name = c.Name,
+                    UrlHandle = c.UrlHandle
+                }).ToList()
+            };
+            return Ok(responseBlogPost);
+        }
+
     }
 }

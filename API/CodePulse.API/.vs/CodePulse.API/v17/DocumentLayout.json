@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{84BD0E31-837A-4066-86A6-6EF7A8001C85}|CodePulse.API\\CodePulse.API.csproj|d:\\codes\\udemy\\codepulse\\api\\codepulse.api\\codepulse.api\\codepulse.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{84BD0E31-837A-4066-86A6-6EF7A8001C85}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\codepulse.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{84BD0E31-837A-4066-86A6-6EF7A8001C85}|CodePulse.API\\CodePulse.API.csproj|d:\\codes\\udemy\\codepulse\\api\\codepulse.api\\codepulse.api\\controllers\\blogpostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84BD0E31-837A-4066-86A6-6EF7A8001C85}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\controllers\\blogpostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84BD0E31-837A-4066-86A6-6EF7A8001C85}|CodePulse.API\\CodePulse.API.csproj|d:\\codes\\udemy\\codepulse\\api\\codepulse.api\\codepulse.api\\repositories\\interface\\icategorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84BD0E31-837A-4066-86A6-6EF7A8001C85}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\repositories\\interface\\icategorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84BD0E31-837A-4066-86A6-6EF7A8001C85}|CodePulse.API\\CodePulse.API.csproj|d:\\codes\\udemy\\codepulse\\api\\codepulse.api\\codepulse.api\\repositories\\implementation\\blogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84BD0E31-837A-4066-86A6-6EF7A8001C85}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\repositories\\implementation\\blogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84BD0E31-837A-4066-86A6-6EF7A8001C85}|CodePulse.API\\CodePulse.API.csproj|d:\\codes\\udemy\\codepulse\\api\\codepulse.api\\codepulse.api\\repositories\\interface\\iblogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84BD0E31-837A-4066-86A6-6EF7A8001C85}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\repositories\\interface\\iblogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{84BD0E31-837A-4066-86A6-6EF7A8001C85}|CodePulse.API\\CodePulse.API.csproj|d:\\codes\\udemy\\codepulse\\api\\codepulse.api\\codepulse.api\\repositories\\implementation\\imagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,14 +51,6 @@
       "RelativeMoniker": "D:0:0:{84BD0E31-837A-4066-86A6-6EF7A8001C85}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84BD0E31-837A-4066-86A6-6EF7A8001C85}|CodePulse.API\\CodePulse.API.csproj|d:\\codes\\udemy\\codepulse\\api\\codepulse.api\\codepulse.api\\repositories\\interface\\icategorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84BD0E31-837A-4066-86A6-6EF7A8001C85}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\repositories\\interface\\icategorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84BD0E31-837A-4066-86A6-6EF7A8001C85}|CodePulse.API\\CodePulse.API.csproj|d:\\codes\\udemy\\codepulse\\api\\codepulse.api\\codepulse.api\\repositories\\interface\\iblogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84BD0E31-837A-4066-86A6-6EF7A8001C85}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\repositories\\interface\\iblogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{84BD0E31-837A-4066-86A6-6EF7A8001C85}|CodePulse.API\\CodePulse.API.csproj|d:\\codes\\udemy\\codepulse\\api\\codepulse.api\\codepulse.api\\models\\domain\\blogimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84BD0E31-837A-4066-86A6-6EF7A8001C85}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\models\\domain\\blogimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -53,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{84BD0E31-837A-4066-86A6-6EF7A8001C85}|CodePulse.API\\CodePulse.API.csproj|d:\\codes\\udemy\\codepulse\\api\\codepulse.api\\codepulse.api\\models\\dto\\responseblogpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84BD0E31-837A-4066-86A6-6EF7A8001C85}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\models\\dto\\responseblogpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84BD0E31-837A-4066-86A6-6EF7A8001C85}|CodePulse.API\\CodePulse.API.csproj|d:\\codes\\udemy\\codepulse\\api\\codepulse.api\\codepulse.api\\repositories\\implementation\\blogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84BD0E31-837A-4066-86A6-6EF7A8001C85}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\repositories\\implementation\\blogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{84BD0E31-837A-4066-86A6-6EF7A8001C85}|CodePulse.API\\CodePulse.API.csproj|d:\\codes\\udemy\\codepulse\\api\\codepulse.api\\codepulse.api\\models\\dto\\updateblogpostrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -132,11 +136,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "ImagesController.cs",
               "DocumentMoniker": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Controllers\\ImagesController.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Controllers\\ImagesController.cs",
@@ -149,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "BlogImage.cs",
               "DocumentMoniker": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\Domain\\BlogImage.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Models\\Domain\\BlogImage.cs",
@@ -162,7 +166,81 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CodePulse.API",
+              "DocumentMoniker": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\CodePulse.API.csproj",
+              "RelativeDocumentMoniker": "CodePulse.API\\CodePulse.API.csproj",
+              "ToolTip": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\CodePulse.API.csproj",
+              "RelativeToolTip": "CodePulse.API\\CodePulse.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-08T02:56:20.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "BlogImageDTO.cs",
+              "DocumentMoniker": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\DTO\\BlogImageDTO.cs",
+              "RelativeDocumentMoniker": "CodePulse.API\\Models\\DTO\\BlogImageDTO.cs",
+              "ToolTip": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\DTO\\BlogImageDTO.cs",
+              "RelativeToolTip": "CodePulse.API\\Models\\DTO\\BlogImageDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T02:26:43.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BlogPostController.cs",
+              "DocumentMoniker": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Controllers\\BlogPostController.cs",
+              "RelativeDocumentMoniker": "CodePulse.API\\Controllers\\BlogPostController.cs",
+              "ToolTip": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Controllers\\BlogPostController.cs",
+              "RelativeToolTip": "CodePulse.API\\Controllers\\BlogPostController.cs",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAAAPEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T01:55:06.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BlogPostRepository.cs",
+              "DocumentMoniker": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Implementation\\BlogPostRepository.cs",
+              "RelativeDocumentMoniker": "CodePulse.API\\Repositories\\Implementation\\BlogPostRepository.cs",
+              "ToolTip": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Implementation\\BlogPostRepository.cs",
+              "RelativeToolTip": "CodePulse.API\\Repositories\\Implementation\\BlogPostRepository.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwDwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T02:07:48.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICategorRepository.cs",
+              "DocumentMoniker": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Interface\\ICategorRepository.cs",
+              "RelativeDocumentMoniker": "CodePulse.API\\Repositories\\Interface\\ICategorRepository.cs",
+              "ToolTip": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Interface\\ICategorRepository.cs",
+              "RelativeToolTip": "CodePulse.API\\Repositories\\Interface\\ICategorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T04:45:50.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IBlogPostRepository.cs",
+              "DocumentMoniker": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Interface\\IBlogPostRepository.cs",
+              "RelativeDocumentMoniker": "CodePulse.API\\Repositories\\Interface\\IBlogPostRepository.cs",
+              "ToolTip": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Interface\\IBlogPostRepository.cs",
+              "RelativeToolTip": "CodePulse.API\\Repositories\\Interface\\IBlogPostRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T02:07:19.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Data\\ApplicationDbContext.cs",
@@ -175,55 +253,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "ICategorRepository.cs",
-              "DocumentMoniker": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Interface\\ICategorRepository.cs",
-              "RelativeDocumentMoniker": "CodePulse.API\\Repositories\\Interface\\ICategorRepository.cs",
-              "ToolTip": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Interface\\ICategorRepository.cs",
-              "RelativeToolTip": "CodePulse.API\\Repositories\\Interface\\ICategorRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T04:45:50.912Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IBlogPostRepository.cs",
-              "DocumentMoniker": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Interface\\IBlogPostRepository.cs",
-              "RelativeDocumentMoniker": "CodePulse.API\\Repositories\\Interface\\IBlogPostRepository.cs",
-              "ToolTip": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Interface\\IBlogPostRepository.cs",
-              "RelativeToolTip": "CodePulse.API\\Repositories\\Interface\\IBlogPostRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T02:07:19.805Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BlogImageDTO.cs",
-              "DocumentMoniker": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\DTO\\BlogImageDTO.cs",
-              "RelativeDocumentMoniker": "CodePulse.API\\Models\\DTO\\BlogImageDTO.cs",
-              "ToolTip": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\DTO\\BlogImageDTO.cs",
-              "RelativeToolTip": "CodePulse.API\\Models\\DTO\\BlogImageDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T02:26:43.438Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BlogPostController.cs",
-              "DocumentMoniker": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Controllers\\BlogPostController.cs",
-              "RelativeDocumentMoniker": "CodePulse.API\\Controllers\\BlogPostController.cs",
-              "ToolTip": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Controllers\\BlogPostController.cs",
-              "RelativeToolTip": "CodePulse.API\\Controllers\\BlogPostController.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAgwH8AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T01:55:06.265Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Controllers\\CategoriesController.cs",
@@ -231,12 +260,11 @@
               "RelativeToolTip": "CodePulse.API\\Controllers\\CategoriesController.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAYwDQAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T02:39:17Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T02:39:17Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "ImageRepository.cs",
               "DocumentMoniker": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Implementation\\ImageRepository.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Repositories\\Implementation\\ImageRepository.cs",
@@ -248,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "CategoryRepository.cs",
               "DocumentMoniker": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Implementation\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Repositories\\Implementation\\CategoryRepository.cs",
@@ -260,7 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "IImageRepository.cs",
               "DocumentMoniker": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Interface\\IImageRepository.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Repositories\\Interface\\IImageRepository.cs",
@@ -272,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Program.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Program.cs",
@@ -284,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "BlogPost.cs",
               "DocumentMoniker": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\Domain\\BlogPost.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Models\\Domain\\BlogPost.cs",
@@ -296,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "ResponseBlogPostDTO.cs",
               "DocumentMoniker": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\DTO\\ResponseBlogPostDTO.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Models\\DTO\\ResponseBlogPostDTO.cs",
@@ -308,19 +336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "BlogPostRepository.cs",
-              "DocumentMoniker": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Implementation\\BlogPostRepository.cs",
-              "RelativeDocumentMoniker": "CodePulse.API\\Repositories\\Implementation\\BlogPostRepository.cs",
-              "ToolTip": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Implementation\\BlogPostRepository.cs",
-              "RelativeToolTip": "CodePulse.API\\Repositories\\Implementation\\BlogPostRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T02:07:48.031Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "20250615064456_Adding Blog Image Domain Model.cs",
               "DocumentMoniker": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Migrations\\20250615064456_Adding Blog Image Domain Model.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Migrations\\20250615064456_Adding Blog Image Domain Model.cs",
@@ -332,7 +348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "UpdateBlogPostRequestDTO.cs",
               "DocumentMoniker": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\DTO\\UpdateBlogPostRequestDTO.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Models\\DTO\\UpdateBlogPostRequestDTO.cs",
@@ -344,7 +360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "BlogPostController.cs",
               "DocumentMoniker": "C:\\Users\\dhaya\\AppData\\Local\\SourceServer\\f15962b0267ff505897131881acc4f03cbcf55e64f87f70fe5bcc456eec49e35\\API\\CodePulse.API\\CodePulse.API\\Controllers\\BlogPostController.cs",
               "ToolTip": "C:\\Users\\dhaya\\AppData\\Local\\SourceServer\\f15962b0267ff505897131881acc4f03cbcf55e64f87f70fe5bcc456eec49e35\\API\\CodePulse.API\\CodePulse.API\\Controllers\\BlogPostController.cs [Read Only]",
@@ -355,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "UpdateCategoryResponseDTO.cs",
               "DocumentMoniker": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\DTO\\UpdateCategoryResponseDTO.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Models\\DTO\\UpdateCategoryResponseDTO.cs",
@@ -367,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "CreateBlogPostRequestDTO.cs",
               "DocumentMoniker": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\DTO\\CreateBlogPostRequestDTO.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Models\\DTO\\CreateBlogPostRequestDTO.cs",
@@ -379,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "CreateCategoryRequestDTO.cs",
               "DocumentMoniker": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\DTO\\CreateCategoryRequestDTO.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Models\\DTO\\CreateCategoryRequestDTO.cs",
@@ -391,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "ResponseCategoryDTO.cs",
               "DocumentMoniker": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\DTO\\ResponseCategoryDTO.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Models\\DTO\\ResponseCategoryDTO.cs",
@@ -403,7 +419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\Domain\\Category.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Models\\Domain\\Category.cs",
@@ -415,7 +431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "20250527015930_Add Relationships Many to Many.cs",
               "DocumentMoniker": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Migrations\\20250527015930_Add Relationships Many to Many.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Migrations\\20250527015930_Add Relationships Many to Many.cs",
@@ -427,7 +443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\appsettings.json",
               "RelativeDocumentMoniker": "CodePulse.API\\appsettings.json",
@@ -439,7 +455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "C:\\Users\\dhaya\\AppData\\Local\\SourceServer\\304aa0327ea753eaf6e25dd8a62bfaff921944d73c5d16f89d30ab65f7a25631\\API\\CodePulse.API\\CodePulse.API\\Controllers\\CategoriesController.cs",
               "ToolTip": "C:\\Users\\dhaya\\AppData\\Local\\SourceServer\\304aa0327ea753eaf6e25dd8a62bfaff921944d73c5d16f89d30ab65f7a25631\\API\\CodePulse.API\\CodePulse.API\\Controllers\\CategoriesController.cs [Read Only]",
@@ -450,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "CodePulse.API\\appsettings.Development.json",
@@ -462,7 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "CodePulse.API\\Properties\\launchSettings.json",
@@ -474,18 +490,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "CodePulse.API",
               "DocumentMoniker": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\CodePulse.API.csproj",
               "RelativeDocumentMoniker": "CodePulse.API\\CodePulse.API.csproj",
               "ToolTip": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\CodePulse.API.csproj",
               "RelativeToolTip": "CodePulse.API\\CodePulse.API.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-19T16:05:43.535Z"
+              "WhenOpened": "2025-03-19T16:05:43.535Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "20250313162904_Created DataBase.cs",
               "DocumentMoniker": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Migrations\\20250313162904_Created DataBase.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Migrations\\20250313162904_Created DataBase.cs",
@@ -496,7 +513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "20250313163530_Created DataBase.cs",
               "DocumentMoniker": "D:\\Codes\\Udemy\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Migrations\\20250313163530_Created DataBase.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Migrations\\20250313163530_Created DataBase.cs",
