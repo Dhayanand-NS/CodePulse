@@ -5,31 +5,32 @@ import { HttpClient } from '@angular/common/http';
 import { category } from '../models/category.model';
 import { environment } from '../../../../environments/environment';
 import { updateCategoryRequest } from '../models/update-category-request.model';
+import { CookieService } from 'ngx-cookie-service';
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
-
 export class CategoryService {
+  constructor(private http: HttpClient, private cookieService: CookieService) {}
 
-  constructor(private http : HttpClient) { }
-
-  addCategory(model : AddCategoryRequest) : Observable<void>{
-    return this.http.post<void>(`${environment.apiBaserl}api/Categories`, model)
+  addCategory(model: AddCategoryRequest): Observable<void> {
+    return this.http.post<void>(`${environment.apiBaserl}api/Categories?addAuth=true`,model);
   }
 
-  getAllCategories() : Observable<category[]>{
+  getAllCategories(): Observable<category[]> {
     return this.http.get<category[]>(`${environment.apiBaserl}api/Categories`);
   }
 
-  getCategoryById(id : string | null): Observable<category>{
-    return this.http.get<category>(`${environment.apiBaserl}api/Categories/${id}`)
+  getCategoryById(id: string | null): Observable<category> {
+    return this.http.get<category>(
+      `${environment.apiBaserl}api/Categories/${id}`
+    );
   }
 
-  updateCategory(id:string | null, category :updateCategoryRequest) : Observable<category>{
-    return this.http.put<category>(`${environment.apiBaserl}api/Categories/${id}`, category)
+  updateCategory(id: string | null, category: updateCategoryRequest): Observable<category> {
+    return this.http.put<category>(`${environment.apiBaserl}api/Categories/${id}?addAuth=true`,category );
   }
 
-  deleteCategory(id : string) : Observable<category>{
-    return this.http.delete<category>(`${environment.apiBaserl}api/Categories/${id}`);
+  deleteCategory(id: string): Observable<category> {
+    return this.http.delete<category>(`${environment.apiBaserl}api/Categories/${id}?addAuth=true`);
   }
 }
