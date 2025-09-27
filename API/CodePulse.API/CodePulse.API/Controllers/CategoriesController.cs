@@ -43,9 +43,9 @@ namespace CodePulse.API.Controllers
             return Ok(responseCategory);
         }
         [HttpGet]
-        public async Task<IActionResult> GetAllCategories()
+        public async Task<IActionResult> GetAllCategories([FromQuery]CategoryFilterModal filters)
         {
-            var categories = await _category.GetAllAsync();
+            var categories = await _category.GetAllAsync(filters);
             //Map Domain Model to DTO
             var responseCategories = categories.Select(c => new ResponseCategoryDTO
             {
@@ -121,6 +121,14 @@ namespace CodePulse.API.Controllers
                 UrlHandle = category.UrlHandle
             };
             return Ok(responseCategory);
+        }
+
+        [HttpGet]
+        [Route("count")]
+        public async Task<IActionResult> GetCategoryCount()
+        {
+            var count = await _category.GetCountAsync();
+            return Ok(count);
         }
     }
 }
